@@ -12,7 +12,16 @@ body {
 
 
 
-
-
 /* Header */
 
+.mobile-nav {
+	display: none;
+}
+
+.menu ul {
+	list-style-type: none;
+}
+
+.company-name {
+	font-size: 3rem
+}
