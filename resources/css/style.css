@@ -17,16 +17,14 @@ body {
 header {
 	display: flex;
 	height: 64px;
-	
+	margin: 0 auto;
+	justify-content: space-between;
 }
 
 .logo {
-	padding-left: 24px;
-	padding-top: 16px;
-}
-
-.company {
-	padding-top: 16px;
+	padding-left: 2rem;
+	display: flex;
+	align-items: center;
 }
 
 .mobile-nav {
@@ -34,23 +32,27 @@ header {
 }
 
 nav {
-	justify-content: flex-end;
+	align-items: right;
 	font-size: 1rem;
-	padding-top: 21px;
+	padding-top: 1.4rem;
 }
 
 nav ul {
+	display: flex;
 	list-style: none;
-	padding-right: 24px;
+	padding-right: 2rem;
 }
 
 ul li {
-	display: inline-flex;
+	display: inline;
 	align-items: right;
 	padding-left: 1rem;
+	color: grey;
 }
 
 .company {
-	font-size: 1.5rem
+	font-size: 1.3rem
 }
+
+
 
