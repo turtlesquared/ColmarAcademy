@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-	font-size: 18px;
+	font-size: 12px;
 	font-family: Helvetica, sans-serif;
 	background-color: white;
 }
@@ -18,10 +18,10 @@ body {
 	display: none;
 }
 
-.menu ul {
+nav ul {
 	list-style-type: none;
 }
 
 .company-name {
-	font-size: 3rem
+	font-size: 2rem
 }
