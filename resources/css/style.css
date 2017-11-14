@@ -117,10 +117,6 @@ ul li {
 	position: relative;
 }
 
-.info-content {
-	width: 94%;
-}
-
 .info-content h2 {
 	font-size: 2.2rem;
 	padding-top: 2rem;
@@ -137,6 +133,43 @@ ul li {
 	padding-bottom: 2rem;
 }
 
-.item img {
-	width: 35%;
+.container-right .item {
+	display: flex;
+	padding: 1rem 0;
+}
+
+.container-right .item-content {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	padding-left: rem;
+	width: 65%;
+}
+
+.information .container-right {
+	border-left: 1px solid lightgrey;
+}
+
+.item {
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
+.item-img img {
+	width: 85%;
+	height: auto;
+}
+
+.item-content h3 {
+	font-size: 1.8rem;
+	line-height: 1;
+}
+
+.item-content p {
+	font-size: 0.80rem;
+	line-height: 1;
+}
+
+.item-content span {
+	padding-top: 1.5rem;
 }
