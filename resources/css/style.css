@@ -32,7 +32,7 @@ header {
 }
 
 .logo {
-	padding-left: 2rem;
+	padding-left: 1.5rem;
 	display: flex;
 	align-items: center;
 	font-size: 1.3rem
@@ -66,6 +66,40 @@ ul li {
 }
 
 /* Jumbotron */
+
+.jumbotron {
+	display: flex;
+	position: relative;
+	background-color: #B2B2B2;
+}
+
+.container-left {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 1.5rem;
+	width: 60%;
+}
+
+.container-left img {
+	width: 100%;
+	height: auto;
+}
+
+.container-right {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	padding-top: 2rem;
+	padding-left: 1.5rem;
+	width: 40%;
+}
+
+.banner-content {
+	display: flex;
+	flex-direction: column;
+	padding-right: 5rem;
+	width: 70%;
+}
 
 .button {
 	font-size: 1rem;
