@@ -2,7 +2,7 @@
 
 html {
 	font-size: 16px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: white;
 }
 
@@ -25,6 +25,11 @@ header {
 	padding-left: 2rem;
 	display: flex;
 	align-items: center;
+	font-size: 1.3rem
+}
+
+.acadamy {
+	color: #8B8B8B;
 }
 
 .mobile-nav {
@@ -47,12 +52,9 @@ ul li {
 	display: inline;
 	align-items: right;
 	padding-left: 1rem;
-	color: grey;
+	color: #8B8B8B;
 }
 
-.company {
-	font-size: 1.3rem
-}
 
 
 
