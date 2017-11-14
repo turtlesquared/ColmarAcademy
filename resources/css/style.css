@@ -10,7 +10,17 @@ body {
 	line-height: 1.4;
 }
 
+h2 {
+	font-size: 3rem;
+	padding-bottom: 1.5rem;
+	font-weight: bold;
+	line-height: 3rem;
+}
 
+h3 {
+	font-size: 1.5rem;
+	padding-bottom: 1.5rem;
+}
 
 /* Header */
 
@@ -56,44 +66,6 @@ ul li {
 }
 
 /* Jumbotron */
-
-.container {
-	background-color: #B9B9B9;
-	display: flex;
-	position: relative;
-}
-
-.left {
-	display: flex;
-	flex-direction: column;
-	padding: 2rem 1.5rem;
-	width: 60%;
-}
-
-.right {
-	align-self: center;
-	display: flex;
-	flex-direction: column;
-	padding-top: 2rem;
-	width: 40%;
-}
-
-.image-container {
-	overflow: hidden;
-}
-
-.banner-content h2 {
-	
-	font-size: 3rem;
-	padding-bottom: 1.5rem;
-	font-weight: bold;
-	line-height: 3rem;
-}
-
-.banner-content h3 {
-	font-size: 1.5rem;
-	padding-bottom: 1.5rem;
-}
 
 .button {
 	font-size: 1rem;
