@@ -182,3 +182,46 @@ ul li {
 .link {
 	color: #4F92FF;
 }
+
+/* Courses */
+
+.jumbotron h2 {
+	align-items: center;
+	padding-top: 2rem;
+}
+
+.courses {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	padding: 2rem 2rem 2rem 4.5rem;
+}
+
+.course {
+	display: flex;
+	padding: 1rem 2rem;
+	flex-direction: column;
+}
+
+.course img {
+	height: auto;
+	width: auto;
+}
+
+.course .content {
+	background-color: #FFF;
+	padding: 1rem;
+}
+
+.content h3 {
+	
+}
+
+.content h5 {
+	font-size: 0.90rem;
+}
+
+.content p {
+	padding-top: 0.5rem;
+	font-size: 0.90rem;
+}
