@@ -140,6 +140,10 @@ ul li {
 	padding: 1rem 0;
 }
 
+.container-right .item:hover {
+	background-color: #DADADA;
+}
+
 .container-right .item-content {
 	align-self: center;
 	display: flex;
@@ -255,4 +259,37 @@ ul li {
 .content-big p {
 	padding-top: 0.5rem;
 	font-size: 0.90rem;
+}
+
+/* Thesis */
+
+.thesis {
+	display: flex;
+	position: relative;
+}
+
+.thesish2 {
+	padding-top: 2rem;
+	text-align: center;
+}
+
+video {
+	height: auto;
+	width: 100%;
+}
+
+
+footer {
+	display: flex;
+}
+
+footer .copyright {
+	padding-top: 1rem;
+	padding-left: 1.5rem;
+}
+
+.other {
+	align-items: right;
+	padding-left: 1rem;
+	font-size: 0.70rem;
 }
