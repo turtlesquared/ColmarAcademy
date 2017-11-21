@@ -91,7 +91,6 @@ ul li {
 	display: flex;
 	flex-direction: column;
 	align-self: center;
-	padding-top: 2rem;
 	padding-left: 1.5rem;
 	width: 40%;
 }
@@ -278,18 +277,27 @@ video {
 	width: 100%;
 }
 
+/* Footer */
 
 footer {
 	display: flex;
+	align-items: center;
+	position: relative;
+	border-top: 1px solid lightgrey;
+	padding-top: 2rem;
 }
 
-footer .copyright {
-	padding-top: 1rem;
+.copyright {
+	display: flex;
+	flex-grow: 1;
+	padding-bottom: 2rem;
 	padding-left: 1.5rem;
 }
 
 .other {
+	display: flex;
 	align-items: right;
 	padding-left: 1rem;
+	padding-bottom: 2rem;
 	font-size: 0.70rem;
 }
