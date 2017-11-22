@@ -387,17 +387,99 @@ footer {
 		justify-content: flex-start;
 	}
 
+	.information .item {
+		flex-direction: column;
+		padding: 1rem 1rem;
+	}
+
 	.information .mobile-item-img {
 		display: block;
+		width: 100%;
+		height: auto;
 	}
 
 	.information .item-img {
 		display: none;
-		width: 100%;
-		height: auto;
+	}
+
+	.information .item h3 {
+		padding-top: 1rem;
 	}
 
 
 	/* Courses Mobile */
 
+	.maincourse {
+		flex-direction: column;
+		width: 100%;
+		
+	}
+
+	.maincourse img {
+		display: none;
+	}
+
+	.course h5,
+	p {
+		display: none;
+	}
+
+	.maincourse .course {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.course {
+		padding: 1;
+	}
+	
+	.course .content {
+		background-color: #FFF;
+		padding: 1rem 0 2rem 1rem;
+		height: 1rem;
+		text-align: left;
+		width: 100%;
+	}
+
+	.course .content-big {
+		background-color: #FFF;
+		padding: 1rem 0 2rem 1rem;
+		height: 1rem;
+		text-align: left;
+		width: 100%;
+	}
+
+	.course .content-big h3 {
+		padding-bottom: 0;
+	}
+
+	/* Thesis Mobile */
+
+	.thesis {
+		padding-bottom: 2rem;
+	}
+
+	.thesis h3 {
+		display: none;
+	}
+
+	.thesis .container-left {
+		width: 100%;
+	}
+
+	#thesis.container-right{
+		display: none;
+	}
+
+	/* Footer Mobile */
+
+	footer {
+		padding-top: 1rem;
+	}
+
+	.other {
+		display: none;
+	}
 }
+
+	/* This is the best I could do with the time given. I still have a lot to learn. Looking forward to learning more. */
