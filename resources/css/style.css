@@ -282,6 +282,23 @@ video {
 	width: 100%;
 }
 
+#thesis.container-right {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	padding-left: 1.5rem;
+	width: 70%;
+	height: 100%;
+}
+
+#thesis.container-right .item {
+	display: flex;
+	height: auto;
+	width: auto;
+	margin-top: 2.5rem;
+	padding: 1rem 0 1rem 1rem;
+}
+
 /* Footer */
 
 footer {
