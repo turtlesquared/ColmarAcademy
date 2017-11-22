@@ -95,6 +95,10 @@ ul li {
 	width: 40%;
 }
 
+.information .mobile-item-img {
+	display: none;
+}
+
 .banner-content {
 	display: flex;
 	flex-direction: column;
@@ -134,16 +138,16 @@ ul li {
 	padding-bottom: 2rem;
 }
 
-.container-right .item {
+.information .container-right .item {
 	display: flex;
 	padding: 1rem 0;
 }
 
-.container-right .item:hover {
+.information .container-right .item:hover {
 	background-color: #DADADA;
 }
 
-.container-right .item-content {
+.information .container-right .item-content {
 	align-self: center;
 	display: flex;
 	flex-direction: column;
@@ -301,4 +305,99 @@ footer {
 	padding-left: 1rem;
 	padding-bottom: 2rem;
 	font-size: 0.70rem;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 925px) {
+
+	/* Header and Nav Mobile */
+	.logo img {
+	  margin: 0 1.5rem;
+	}
+
+	.colmar,
+	.acadamy {
+	  display: none;
+	}
+
+	.menu .desktop {
+		display: none;
+	}
+
+	.mobile-nav {
+		  display: inline-block;
+		  width: auto;
+	}
+
+	.mobile-nav img {
+		margin: 0 1.5rem;
+	}
+
+	/* Information Mobile */
+
+	.jumbotron {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.jumbotron .container-left {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.jumbotron .container-right {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+
+	.banner-content {
+		align-self: center;
+	}
+
+	.banner-content h2 {
+		margin: 2rem 1rem 0.5rem 0;
+	}
+
+	.banner-content .button {
+		margin-bottom: 2rem;
+	}
+
+	.information .container-left {
+		display: none;
+	}
+
+	.information .container-right {
+		width: 100%;
+		margin: 0;
+	}
+
+	.information .container-right .item {
+		display: flex;
+		flex-direction: column;
+		padding: 1rem 1rem;
+		border-top: none;
+	}
+
+	.information .container-right .item-content {
+		text-align: left;
+		justify-content: flex-start;
+	}
+
+	.information .mobile-item-img {
+		display: block;
+	}
+
+	.information .item-img {
+		display: none;
+		width: 100%;
+		height: auto;
+	}
+
+
+	/* Courses Mobile */
+
 }
